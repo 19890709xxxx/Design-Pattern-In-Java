@@ -5,13 +5,13 @@ import com.my.app.designpattern.Strategy_Pattern.behavior.NameTellingBehavior;
 import com.my.app.designpattern.Strategy_Pattern.behavior.QuackBehavior;
 
 /**
- * @description: 对类文件的描述
+ * @description: 鸭子的超类
  * @author: ouyangxin
  * @date: 2018-09-28 15:45
  * @version: 1.0
  */
 
-public class DuckBase {
+public abstract class DuckBase {
 
     protected FlyBehavior mFlyBehavior;
     protected QuackBehavior mQuackBehavior;

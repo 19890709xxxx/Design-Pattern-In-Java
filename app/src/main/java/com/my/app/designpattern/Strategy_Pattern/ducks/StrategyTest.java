@@ -31,7 +31,7 @@ import com.my.app.designpattern.Strategy_Pattern.behavior.Alien_Duck.LightSpeedF
 public class StrategyTest {
 
     public static void main(String[] args) {
-        DuckBase wd = new WoodDuck();
+        DuckBase wd = new WoodDuck();//使用多态
         DuckBase rd = new RedHeadDuck();
         DuckBase ad = new AlienDuck();
 
