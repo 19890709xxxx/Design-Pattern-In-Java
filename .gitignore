@@ -1,0 +1,17 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.idea/
+.idea/runConfigurations.xml
+.idea/runConfigurations.xml
+.idea/runConfigurations.xml
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+app/src/androidTest/java/com/my/app/designpattern/ExampleInstrumentedTest.java
+app/src/test/java/com/my/app/designpattern/ExampleUnitTest.java
