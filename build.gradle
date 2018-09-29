@@ -13,6 +13,14 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
+
+    def gradle = project.getGradle()
+    new File("${gradle.getGradleUserHomeDir().getAbsolutePath()}/daemon/${gradle.getGradleVersion()}").listFiles().each {
+        if (it.getName().endsWith('.out.log')) {
+            logger.debug("Cleaning up daemon log file $it")
+            it.delete()
+        }
+    }
 }
 
 allprojects {
