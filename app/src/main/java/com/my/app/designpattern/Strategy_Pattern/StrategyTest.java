@@ -1,6 +1,10 @@
-package com.my.app.designpattern.Strategy_Pattern.ducks;
+package com.my.app.designpattern.Strategy_Pattern;
 
 import com.my.app.designpattern.Strategy_Pattern.behavior.Alien_Duck.LightSpeedFly;
+import com.my.app.designpattern.Strategy_Pattern.ducks.AlienDuck;
+import com.my.app.designpattern.Strategy_Pattern.ducks.DuckBase;
+import com.my.app.designpattern.Strategy_Pattern.ducks.RedHeadDuck;
+import com.my.app.designpattern.Strategy_Pattern.ducks.WoodDuck;
 
 /**
  * @description: 策略模式测试类
@@ -10,7 +14,7 @@ import com.my.app.designpattern.Strategy_Pattern.behavior.Alien_Duck.LightSpeedF
  *
  *
  * 策略模式：
- * 1 就是把一些经常会改变的属性抽出来，把基本的属性变成接口
+ * 1 就是把一些经常会改变的属性抽出来，把基本的属性变成接口，这里就是封装变化的过程
  * 2 然后具体的属性再去实现基本的接口，实现不同的详细功能
  * ，如鸭子的叫声和飞行，抽出来 变成 FlyBehavior 和 QuackBehavior，然后各种鸭子的
  * 叫声和飞行行为再去实现这两个接口
