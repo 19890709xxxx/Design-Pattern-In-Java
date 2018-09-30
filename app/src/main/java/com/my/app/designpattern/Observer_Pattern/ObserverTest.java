@@ -17,7 +17,7 @@ import com.my.app.designpattern.Observer_Pattern.subject.WeatherDataSubject;
  * 用例：建造一个 气象站，如果气象数据发生变化，所有气象显示屏上的数据会实时更新
  *
  * 拓展：Java本身也有内置观察者模式，Observable 类，注意，Java里的Observable是一个类
- * 而不是一个接口，这意味着我们要使用Java的观察者模式，就必须继承Observable 类，关键是，Observable 类还将关键方法保护了起来，
+ * 而不是一个接口，这意味着我们要使用Java的观察者模式，就必须继承Observable 类，但是，Observable 类还将关键方法保护了起来，
  * 比如setChange()方法，这意味着除非你继承自Observable 类，否则你无法创建Observable 实例并组合到自己的对象中来，
  * 这不符合我们所提倡的多用组合，少用继承的编程思维，
  * 而且如果你继承了Observable 类，就无法继承其他超类，因为Java不支持多重继承，这就限制了Observable 的复用潜力

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @description: 对类文件的描述
+ * @description: 气象站主题类
  * @author: ouyangxin
  * @date: 2018-09-29 16:48
  * @version: 1.0
