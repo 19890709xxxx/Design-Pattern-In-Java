@@ -10,4 +10,5 @@
 <a href="https://github.com/19890709xxxx/Design-Pattern-In-Java/tree/master/app/src/main/java/com/my/app/designpattern/Observer_Pattern" >2. 观察者模式：  </a>
 气象站的例子，这里使用观察者创建一个气象站，气象站理由不同功能的显示屏，如果气象站有新的数据，会把数据推给各个显示屏
 
-
+<a href="https://github.com/19890709xxxx/Design-Pattern-In-Java/tree/master/app/src/main/java/com/my/app/designpattern/Decorator_Pattern" >3. 装饰者模式：  </a>
+这里使用咖啡店的例子，不同的饮料经过装饰者模式的修改，可以动态添加各种调料，并且自动计算价格和显示对应的饮料名称
