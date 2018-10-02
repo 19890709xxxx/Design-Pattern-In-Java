@@ -12,3 +12,6 @@
 
 <a href="https://github.com/19890709xxxx/Design-Pattern-In-Java/tree/master/app/src/main/java/com/my/app/designpattern/Decorator_Pattern" >3. 装饰者模式：  </a>
 这里使用咖啡店的例子，不同的饮料经过装饰者模式的修改，可以动态添加各种调料，并且自动计算价格和显示对应的饮料名称
+
+<a href="https://github.com/19890709xxxx/Design-Pattern-In-Java/tree/master/app/src/main/java/com/my/app/designpattern/Singleton_Pattern" >4. 单例模式：  </a>
+要注意理解volatile关键字的作用
