@@ -15,3 +15,6 @@
 
 <a href="https://github.com/19890709xxxx/Design-Pattern-In-Java/tree/master/app/src/main/java/com/my/app/designpattern/Singleton_Pattern" >4. 单例模式：  </a>
 要注意理解volatile关键字的作用
+
+<a href="https://github.com/19890709xxxx/Design-Pattern-In-Java/tree/master/app/src/main/java/com/my/app/designpattern/Factory_Pattern" >5. 工厂模式（包含抽象工厂）：  </a>
+使用 Pizza店的例子，不同地区的pizza店，使用不同原料，创造出不同的pizza
