@@ -1,10 +1,10 @@
 package com.my.app.designpattern.Factory_Pattern;
 
-import com.my.app.designpattern.Factory_Pattern.Factory_Pattern.SimplePizzaFactory;
-import com.my.app.designpattern.Factory_Pattern.pizzaStore.AbstractPizzaStore;
-import com.my.app.designpattern.Factory_Pattern.pizzaStore.ChicagoPizzaStore;
-import com.my.app.designpattern.Factory_Pattern.pizzaStore.NYPizzaStore;
-import com.my.app.designpattern.Factory_Pattern.pizzaStore.PizzaStore;
+import com.my.app.designpattern.Factory_Pattern.factory_pattern.SimplePizzaFactory;
+import com.my.app.designpattern.Factory_Pattern.pizza_store.AbstractPizzaStore;
+import com.my.app.designpattern.Factory_Pattern.pizza_store.ChicagoPizzaStore;
+import com.my.app.designpattern.Factory_Pattern.pizza_store.NYPizzaStore;
+import com.my.app.designpattern.Factory_Pattern.pizza_store.PizzaStore;
 
 /**
  * @description: 工厂模式及抽象工厂模式测试类

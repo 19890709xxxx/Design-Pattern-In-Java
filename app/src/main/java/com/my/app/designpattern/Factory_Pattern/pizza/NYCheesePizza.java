@@ -1,6 +1,6 @@
 package com.my.app.designpattern.Factory_Pattern.pizza;
 
-import com.my.app.designpattern.Factory_Pattern.Abstract_Factory_Pattern.PizzaIngredientFactory;
+import com.my.app.designpattern.Factory_Pattern.abstract_factory_pattern.PizzaIngredientFactory;
 
 /**
  * @description: 对类文件的描述

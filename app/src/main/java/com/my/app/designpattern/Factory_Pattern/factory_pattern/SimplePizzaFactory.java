@@ -1,4 +1,4 @@
-package com.my.app.designpattern.Factory_Pattern.Factory_Pattern;
+package com.my.app.designpattern.Factory_Pattern.factory_pattern;
 
 import com.my.app.designpattern.Factory_Pattern.pizza.CheesePizza;
 import com.my.app.designpattern.Factory_Pattern.pizza.ClamPizza;

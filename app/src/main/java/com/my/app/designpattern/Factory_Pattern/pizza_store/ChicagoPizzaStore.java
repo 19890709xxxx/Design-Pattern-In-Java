@@ -1,7 +1,7 @@
-package com.my.app.designpattern.Factory_Pattern.pizzaStore;
+package com.my.app.designpattern.Factory_Pattern.pizza_store;
 
-import com.my.app.designpattern.Factory_Pattern.Abstract_Factory_Pattern.ChicagoIngredientFactory;
-import com.my.app.designpattern.Factory_Pattern.Factory_Pattern.SimplePizzaFactory;
+import com.my.app.designpattern.Factory_Pattern.abstract_factory_pattern.ChicagoIngredientFactory;
+import com.my.app.designpattern.Factory_Pattern.factory_pattern.SimplePizzaFactory;
 import com.my.app.designpattern.Factory_Pattern.pizza.ChicagoCheesePizza;
 import com.my.app.designpattern.Factory_Pattern.pizza.ChicagoVeggiePizza;
 import com.my.app.designpattern.Factory_Pattern.pizza.Pizza;

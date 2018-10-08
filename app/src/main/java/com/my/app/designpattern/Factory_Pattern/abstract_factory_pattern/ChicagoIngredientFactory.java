@@ -1,4 +1,4 @@
-package com.my.app.designpattern.Factory_Pattern.Abstract_Factory_Pattern;
+package com.my.app.designpattern.Factory_Pattern.abstract_factory_pattern;
 
 import com.my.app.designpattern.Factory_Pattern.model.Cheese;
 import com.my.app.designpattern.Factory_Pattern.model.ChicagoCheese;
