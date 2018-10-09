@@ -20,4 +20,9 @@ public class LightOffCommand implements Command{
     public void execute() {
         mLight.off();
     }
+
+    @Override
+    public void unDo() {
+
+    }
 }

@@ -9,4 +9,6 @@ package com.my.app.designpattern.Command_Pattern.commands;
 
 public interface Command {
     void execute();
+
+    void unDo();
 }

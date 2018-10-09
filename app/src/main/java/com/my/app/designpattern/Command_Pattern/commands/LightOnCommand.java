@@ -20,4 +20,9 @@ public class LightOnCommand implements Command{
     public void execute() {
         mLight.on();
     }
+
+    @Override
+    public void unDo() {
+
+    }
 }
